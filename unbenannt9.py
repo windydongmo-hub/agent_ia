@@ -72,6 +72,6 @@ class Memoire:
 #print(memoire.rechercher("SQL"))
 memoire = Memoire()
 #resultat = memoire.rechercher_memoire_par_id(2)
-resultat = memoire.ajouter("Je suis Alice et mon entérêt pour L'IA est G", "Alice" )
+resultat = memoire.rechercher("Bob" , "docker")
 print(resultat)
 memoire.fermer()

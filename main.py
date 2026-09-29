@@ -62,9 +62,6 @@ def supprimer__la_memoire(memoire_id : int , memoire : Memoire = Depends(fournir
         raise HTTPException( statuts_code = 404 , detail = "Mémoire introuvable")
     return {"message": " mémoire suprimé avec succès"}    
 
-#Fonctionnalités de test
-<<<<<<< HEAD
-#Modification sur master
-=======
+#Fonctionnalités de test 
 #Nouvelles fonctionnalite
->>>>>>> nouvelle_fonctionnalite
+#test_reset

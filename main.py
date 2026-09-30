@@ -66,3 +66,4 @@ def supprimer__la_memoire(memoire_id : int , memoire : Memoire = Depends(fournir
 #Nouvelles fonctionnalite
 #test_reset
 #Modification pour tester Github
+# Modification faite directement sur Github
